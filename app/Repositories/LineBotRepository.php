@@ -89,7 +89,7 @@ class LineBotRepository
         $text .= "活動網址:\n";
         $text .= "https://rom.gnjoy.com.tw/\n";
         $text .= "分享好友連結:\n";
-        $text .= url('api/lineBot/shareActivity');
+        $text .= url('api/lineBot/shareActivity') . "\n";
         $text .= "目前您已有x位好友登錄邀請碼";
 
         return $text;
